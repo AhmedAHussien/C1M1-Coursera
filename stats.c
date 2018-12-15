@@ -2,20 +2,26 @@
  * Copyright (C) 2017 by Alex Fosdick - University of Colorado
  *
  * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
+ * forms is permitted as long as the files maintain this copyright. Users are
  * permitted to modify this and use it to learn about the field of embedded
  * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * misuse of this material.
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Contains function definitons for
+ * for statistics analysis
  *
- * <Add Extended Description Here>
+ * This source file includes function definitions
+ * that calculate the following statistics:
+ *	- Minimum
+ *	- Maximum
+ *	- Mean
+ *	- Median
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Ahmed Hessein
+ * @date December 15, 2018
  *
  */
 
@@ -41,3 +47,32 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+void print_statistics(int * ptr, int size)
+{
+
+}
+
+void print_array(int * ptr, int size)
+{
+
+}
+
+int find_median(int * ptr, int size)
+{
+
+}
+
+int find_mean(int * ptr, int size)
+{
+
+}
+
+int find_maximum(int * ptr, int size)
+{
+
+}
+
+int find_minimum(int * ptr, int size)
+{
+  
+}
